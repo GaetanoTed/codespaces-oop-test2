@@ -14,6 +14,18 @@ Note: All sides are integers.
 
 int main() {
     cout<<"Part 1"<<endl; //do not remove, edit, or change the placement of this line.
+    int numofsides;
+    int perimeter = 0;
+    cout << "Enter the number of sides" << endl;
+    cin >> numofsides;
+    int sides[numofsides];
+    cout << "Enter the sides of the shape" << endl;
+    for (int i = 0; i < numofsides; i++)
+     {
+       cin >> sides[i];
+       perimeter += sides[i]
+     }
+     cout << "The perimeter is " << perimeter << endl; 
     
     return 0;
  }
